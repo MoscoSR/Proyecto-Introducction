@@ -8,7 +8,6 @@ body  {
     justify-content: space-between;
     align-items: center;
     margin-left: 100px;
-    position: fixed;
 }
 
 ul {
@@ -67,17 +66,18 @@ ul {
 
  /*AQUI EMPIEZAN LOS ESTILOS DE ABOUT US*/
 
+
  .container-information  {
             display: flex;
             align-items: center;
             position: relative;
-            top: 180px;
+            top: 50px;
  }
 
 
  .banner_1 { 
     position: relative;
-    top: 130px;
+    top: 10px;
 }
  
 .container-information img {
@@ -88,4 +88,30 @@ ul {
 .text_inf {
     margin: 60px;
     top: 100px;
+}
+
+
+
+/*ESTILOS DE PRODUCTS*/
+.container-products {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.container-products img {
+   margin: 15px;
+   width: 80%;
+}
+
+.container-products_2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.container-products_2 img {
+   margin: 15px;
+   width: 80%;
+}
+.titulo_1 {
+   text-align: center;
 }
