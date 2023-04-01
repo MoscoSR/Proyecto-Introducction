@@ -8,6 +8,7 @@ body  {
     justify-content: space-between;
     align-items: center;
     margin-left: 100px;
+    position: fixed;
 }
 
 ul {
@@ -63,3 +64,28 @@ ul {
     height: auto;
     width: 100px;
  }
+
+ /*AQUI EMPIEZAN LOS ESTILOS DE ABOUT US*/
+
+ .container-information  {
+            display: flex;
+            align-items: center;
+            position: relative;
+            top: 180px;
+ }
+
+
+ .banner_1 { 
+    position: relative;
+    top: 130px;
+}
+ 
+.container-information img {
+    width: 80%;
+    margin: 60px;
+}
+
+.text_inf {
+    margin: 60px;
+    top: 100px;
+}
