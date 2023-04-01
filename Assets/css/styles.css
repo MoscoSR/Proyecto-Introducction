@@ -20,15 +20,7 @@ ul {
     align-items: center;   
 }
  .option-menu a {
-    margin: 0;
-    padding-left: 34px;
-    padding: 10px;
-    padding-top: 30px;
-    padding-right: 30px;
-    align-items: center;
-    align-items: safe;
-    margin: 30px 30px 30px 30px;
-    text-align: center;
+    padding: 25px;
  }
 
  .carousel_slide img {
@@ -44,4 +36,30 @@ ul {
  }
  .user {
     padding: 10px;
+ }
+
+ .text_one {
+    position: absolute;
+    bottom: 280px;
+    text-align: center; 
+    margin: 14px 14px 14px 14px;
+ }
+ 
+ .buttons {
+    position: absolute;
+    bottom: 150px;
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    padding: 10px;
+ }
+
+ .button_1 {
+    width: 100px;
+ }
+
+ .button_2 {
+    margin: 10px;
+    height: auto;
+    width: 100px;
  }
